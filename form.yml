@@ -5,8 +5,8 @@ form:
   - auto_groups
   - bc_num_hours
   - bc_num_slots
-  - custom_memory_per_node
-  - custom_num_cores
+  - custom_memory
+  - custom_cpus
   - custom_queue
   - bc_vnc_resolution
   - bc_email_on_started
@@ -24,14 +24,14 @@ attributes:
     -   - Default
         - general
     widget: select
-  custom_memory_per_node:
+  custom_memory:
     cacheable: false
     label: "Memory required in GB"
     value: 8
     min:   8
     max:   8
     widget: number_field
-  custom_num_cores:
+  custom_cpus:
     cacheable: false
     label: "Number of cores"
     value: 4
