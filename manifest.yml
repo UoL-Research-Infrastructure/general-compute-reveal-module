@@ -1,0 +1,10 @@
+---
+name: Reveal
+category: Interactive Apps
+subcategory: GUIs
+role: batch_connect
+description: |
+  This app will launch a [Reveal] GUI. You will be able
+  to interact with the Reveal GUI through a VNC session.
+
+  [Reveal]: https://shearwatergeo.com/reveal-software/
